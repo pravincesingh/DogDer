@@ -111,26 +111,50 @@ h2 {
   width: 15%;
   margin: 20px 20px 50px;
 }
-.carousel-item{
+
+.carousel-item {
   padding: 7% 15%;
 }
 
-
-
-#pricing{
-  padding :100px;
+#pricing {
+  padding: 100px;
   text-align: center;
 }
-.card{
+
+.card {
   padding: 3% 2%;
 }
 
-@media (max-width : 1025px){
-  #title{
+@media (max-width : 1025px) {
+  #title {
     text-align: center;
   }
-  .title-image{
+
+  .title-image {
     position: static;
     transform: rotate(0);
   }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+  /* 7-top and bottom 15 left and right */
+}
+
+.cta_h3 {
+  color: #fff;
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.social-icon {
+  margin: 20px 10px;
 }
